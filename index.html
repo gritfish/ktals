@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Killing Time at Lightspeed</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Gritfish">
+
+	<!-- Le styles -->
+	<link href="css/bootstrap.css" rel="stylesheet">
+	<style type="text/css">
+		body {
+			padding-top: 60px;
+			padding-bottom: 40px;
+		}
+		.sidebar-nav {
+			padding: 9px 0;
+		}
+		.container-fluid{
+			max-width:1200px;
+			margin:0px auto;
+		}
+		@media (max-width: 980px) {
+			/* Enable use of floated navbar text */
+			.navbar-text.pull-right {
+				float: none;
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+		}
+	</style>
+	<link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<script src="js/jquery-1.11.0.min.js"></script>
+	<script src="js/angular.min.js"></script>
+	<script src="js/angular-sanitize.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="app/app.js" type="text/javascript"></script>
+	<script src="app/services/GameService.js" type="text/javascript"></script>
+	<script src="app/services/PageService.js" type="text/javascript"></script>
+	<script src="app/services/TweetService.js" type="text/javascript"></script>
+	<script src="app/controllers/AlertsCtrl.js" type="text/javascript"></script>
+	<script src="app/controllers/MessagesCtrl.js" type="text/javascript"></script>
+	<script src="app/controllers/NewsCtrl.js" type="text/javascript"></script>
+	<script src="app/controllers/PageCtrl.js" type="text/javascript"></script>
+	<script src="app/controllers/PlayerCtrl.js" type="text/javascript"></script>
+	<script src="app/controllers/TimelineCtrl.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		_386 = { onePass: true, speedFactor: 1.25 };
+	</script>
+	<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-3652178-15', 'auto');
+	ga('send', 'pageview');
+	</script>
+</head>
+<body>
+	<div id="page" class="container-fluid">
+
+
+		<div class="row-fluid" style="text-align:center;">
+			<img src="img/cover.png" alt="" style="margin:0px auto;">
+			<p style="margin-top:20px;">Dev's note: feel free to click around and explore the story.<br />Time in the game will not progress until you hit the "refresh"<br />button at the bottom of the "timestream" page.</p>
+			<p>For a more immersive experience,<br />please play the game in fullscreen mode.<br />On Windows press F11<br />On Mac press Command+Shift+F</p>
+			<a class="btn btn-large" href="game.html">Begin</a>
+		</div>
+
+	</div>
+</body>
+</html>
